@@ -1,0 +1,29 @@
+.russia__text {
+    margin: 0 0 0 148px;
+    padding: 8px 0 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 1.4;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width:1024px){
+    .russia__text {
+      margin-left: 48px;
+    }
+  }
+
+@media screen and (max-width:768px){
+    .russia__text {
+      margin-left: 24px;
+    }
+  }
+@media screen and (max-width:600px){
+    .russia__text {
+      margin-left: 16px;
+    }
+  }
+

@@ -1,0 +1,10 @@
+.places__card-text-gap {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 600px){
+    .places__card-text-gap {
+        width: calc(100% - 16px * 2);
+    }
+}

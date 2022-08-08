@@ -1,0 +1,16 @@
+.places__urls {
+    display: flex;
+    flex-direction: column;
+    align-self: end;
+    gap: 12px;
+    grid-row: 1;
+    height: fit-content;
+
+}
+
+@media screen and (max-width: 600px) {
+    .places__urls {
+        align-self: unset;
+        width: calc(100% - 16px * 2);
+    }
+}

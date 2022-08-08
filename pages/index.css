@@ -1,0 +1,79 @@
+
+@import url(../Vendor/normalize.css);
+@import url(../Fonts/fonts.css);
+@import url(../Fonts/Inter-fonts/Inter-Bold.woff);
+@import url(../Fonts/Inter-fonts/Inter-Bold.woff2);
+@import url(../Fonts/Inter-fonts/Inter-Black.woff);
+@import url(../Fonts/Inter-fonts/Inter-Black.woff2);
+@import url(../Fonts/Inter-fonts/Inter-Regular.woff);
+@import url(../Fonts/Inter-fonts/Inter-Regular.woff2);
+
+
+
+@import url(../Blocks/body/body.css);
+
+@import url(../Blocks/content/content.css);
+
+@import url(../Blocks/header/header.css);
+@import url(../Blocks/header/__lang/header__lang.css);
+@import url(../Blocks/header/__lang/_txt/header__lang_txt.css);
+@import url(../Blocks/header/__lang/_underline/header__lang_underline.css);
+@import url(../Blocks/header/__links/header__links.css);
+
+@import url(../Blocks/header/__logo/header__logo.css);
+
+
+
+
+
+@import url(../Blocks/places/places.css);
+@import url(../Blocks/places/__card-text/places__card-text.css);
+@import url(../Blocks/places/__card-text-gap/places__card-text-gap.css);
+@import url(../Blocks/places/__card/places__card.css);
+@import url(../Blocks/places/__image/places__image.css);
+@import url(../Blocks/places/__link/places__link.css);
+@import url(../Blocks/places/__texts/places__texts.css);
+@import url(../Blocks/places/__title/places__title.css);
+@import url(../Blocks/places/__url/places__url.css);
+@import url(../Blocks/places/__urls/places__urls.css);
+@import url(../Blocks);
+@import url(../Blocks);
+
+
+@import url(../Blocks/russia/russia.css);
+@import url(../Blocks/russia/__image/russia__image.css);
+@import url(../Blocks/russia/__subtitle/russia__subtitle.css);
+@import url(../Blocks/russia/__text/russia__text.css);
+@import url(../Blocks/russia/__title/russia__title.css);
+
+
+
+
+
+@import url(../Blocks/not-seen/not-seen.css);
+@import url(../Blocks/not-seen/__list/not-seen__list.css);
+@import url(../Blocks/not-seen/__text/not-seen__text.css);
+@import url(../Blocks/not-seen/__texts/not-seen__texts.css);
+@import url(../Blocks/not-seen/__title/not-seen__title.css);
+@import url(../Blocks/not-seen/__list-all/not-seen__list-all.css);
+@import url(../Blocks/);
+@import url(../Blocks);
+
+@import url(../Blocks/gallery/gallery.css);
+@import url(../Blocks/gallery/__image/gallery__image.css);
+@import url(../Blocks);
+@import url(../Blocks);
+@import url(../Blocks);
+
+
+@import url(../Blocks/baikal/baikal.css);
+@import url(../Blocks/baikal/__text/baikal__text.css);
+@import url(../Blocks/baikal/__title/baikal__title.css);
+@import url(../Blocks/baikal/__link/baikal__link.css);
+@import url(../Blocks/baikal/__overlay/baikal__overlay.css);
+
+@import url(../Blocks/footer/__links/footer__links.css);
+@import url(../Blocks/footer/__link/footer__link.css);
+@import url(../Blocks/footer/__author/footer__author.css);
+@import url(../Blocks/footer/footer.css);
+@import url(../Blocks);

@@ -1,0 +1,20 @@
+.header__links {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    padding: 0;
+    margin: 46px 48px 0 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+@media screen and (max-width: 540px) {
+    .header__links {
+font-size: 18px;
+line-height: 1.11;
+margin-top: 30px;
+    }
+}
