@@ -1,13 +1,13 @@
 .places__link {
-    font-size: 18px;
-    line-height: 1.22;
-    text-decoration-line: underline;
-    color: #FFFFFF;
-    grid-column: 2;
-    cursor: pointer;
+  font-size: 18px;
+  line-height: 1.22;
+  text-decoration-line: underline;
+  color: #FFFFFF;
+  grid-column: 2;
+  cursor: pointer;
 }
 
 .places__link:hover {
-    opacity: 0.8;
-    transition: ease-in;
+  opacity: 0.8;
+  transition: ease-in;
 }

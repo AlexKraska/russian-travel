@@ -1,18 +1,16 @@
 .places__card-text {
-    font-size: 18px;
-    line-height: 1.63;
-    color: #FFFFFF;
-    grid-row: 2;
-    margin: 26px 0 0;
+  font-size: 18px;
+  line-height: 1.63;
+  color: #FFFFFF;
+  grid-row: 2;
+  margin: 26px 0 0;
 
 }
 
 @media screen and (max-width: 768px) {
-    
 
-.places__card-text {
-  font-size: 16px;
+
+  .places__card-text {
+    font-size: 16px;
+  }
 }
-}
-
-
