@@ -1,6 +1,6 @@
 .header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-family: 'Inter', Arial, sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: 'Inter', Arial, sans-serif;
 }

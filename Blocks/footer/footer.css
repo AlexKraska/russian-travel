@@ -8,18 +8,20 @@
     font-weight: 400;
     justify-content: space-between;
     color: #FFFFFF;
-    
+
 }
 
 @media screen and (max-width: 1024px) {
 .footer {
-        
+
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 780px) {
 .footer {
-       
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
     margin-top: 88px;
     margin-right: 24px;
     }
@@ -27,9 +29,7 @@
 
 @media screen and (max-width: 685px) {
 .footer {
-     display: flex;
-     flex-direction: column;
-     gap: 48px;
+
      margin-top: 64px;
      margin-left: 16px;
      margin-right: auto;
