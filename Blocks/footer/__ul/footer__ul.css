@@ -1,0 +1,15 @@
+.footer__ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 780px) {
+  .footer__ul {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+  }
+}

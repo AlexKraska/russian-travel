@@ -4,12 +4,13 @@
   color: #FFFFFF;
   grid-row: 2;
   margin: 26px 0 0;
+}
 
+.places__card-text:first-of-type {
+  margin-top: 0;
 }
 
 @media screen and (max-width: 768px) {
-
-
   .places__card-text {
     font-size: 16px;
   }

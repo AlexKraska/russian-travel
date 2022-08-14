@@ -11,10 +11,6 @@
 
 }
 
-@media screen and (max-width: 1024px) {
-  .footer {}
-}
-
 @media screen and (max-width: 780px) {
   .footer {
     display: flex;
@@ -27,7 +23,6 @@
 
 @media screen and (max-width: 685px) {
   .footer {
-
     margin-top: 64px;
     margin-left: 16px;
     margin-right: auto;

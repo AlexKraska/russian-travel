@@ -1,13 +1,9 @@
 .places__image {
-
   width: 100%;
   grid-row: 2;
-
 }
 
-
-
-@media screen and (max-width:620px) {
+@media screen and (max-width: 620px) {
   .places__image {
     max-width: 100%;
     grid-row: 2;
