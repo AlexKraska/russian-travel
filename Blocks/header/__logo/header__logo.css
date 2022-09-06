@@ -5,6 +5,13 @@
 .header__logo:hover {
   opacity: 0.8;
   cursor: pointer;
+  transition: all ease-in-out 0.2s;
+}
+
+@media screen and (max-width: 768px) {
+  .header__logo {
+    margin-left: 24px;
+  }
 }
 
 @media screen and (max-width: 540px) {

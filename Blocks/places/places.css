@@ -2,3 +2,9 @@
   margin: 92px 0 0;
   font-family: 'Inter', Arial, sans-serif;
 }
+
+@media screen and (max-width: 400px){
+  .places {
+    margin-top: 64px;
+  }
+}

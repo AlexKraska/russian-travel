@@ -3,6 +3,12 @@
   grid-row: 2;
 }
 
+.places__image:hover {
+  transition: all 1s ease;
+  cursor: pointer;
+  transform: scale(110%);
+}
+
 @media screen and (max-width: 620px) {
   .places__image {
     max-width: 100%;

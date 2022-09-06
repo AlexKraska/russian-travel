@@ -6,4 +6,5 @@
 
 .header__lang_txt:hover {
   opacity: 0.8;
+  transition: all ease-in-out 0.2s;
 }

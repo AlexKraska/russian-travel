@@ -6,7 +6,7 @@
   align-self: center;
   position: center;
   text-decoration: none;
-  background-image: url(../../../../../../Desktop/dev/russian-travel/images/baikal/baikal-background.jpg);
+  background-image: url(../../../images/baikal/baikal-background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   max-width: calc(100% - 48px * 2);
@@ -41,7 +41,8 @@
 
 @media screen and (max-width: 768px) {
   .cover__link {
-    height: 400px;
+    max-height: 480px;
+    margin-top: 90px;
   }
 }
 

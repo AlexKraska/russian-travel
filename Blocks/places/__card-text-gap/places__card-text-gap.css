@@ -8,3 +8,10 @@
     width: calc(100% - 16px * 2);
   }
 }
+
+@media screen and (max-width: 400px) {
+  .places__card-text-gap {
+    margin-top: 0;
+  }
+}
+

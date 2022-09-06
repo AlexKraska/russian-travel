@@ -3,6 +3,22 @@
   border-style: none;
 }
 
+.lead__image:hover {
+  transition: all 0.5s ease;
+  cursor: pointer;
+  animation: 2s infinite alternate smallbigger;
+}
+
+@keyframes smallbigger {
+  from {
+    transform: scale(90%);
+  }
+
+  to {
+    transform: scale(100%);
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .lead__image {
     margin: 56px 0 0;

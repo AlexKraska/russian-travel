@@ -20,3 +20,10 @@
     width: calc(100% - 16px * 2);
   }
 }
+
+@media screen and (max-width: 400px) {
+  .cover__text {
+    margin-top: 16px;
+    height: 48px;
+  }
+}
