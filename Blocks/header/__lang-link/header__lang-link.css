@@ -1,10 +1,10 @@
-.header__lang_txt {
+.header__lang-link {
   margin: 0;
   color: #fff;
   text-decoration: none;
 }
 
-.header__lang_txt:hover {
+.header__lang-link:hover {
   opacity: 0.8;
   transition: all ease-in-out 0.2s;
 }

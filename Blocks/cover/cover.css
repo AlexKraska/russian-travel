@@ -4,12 +4,14 @@
   display: flex;
 }
 
+@media screen and (max-width: 400px) {
+  .cover {
+    height: 266px;
+  }
+}
+
 .cover:hover .cover__link::before {
   opacity: 0.8;
 }
 
-@media screen and(max-width: 400px) {
-  .cover {
-    margin-top: 66px;
-  }
-}
+

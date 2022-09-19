@@ -1,13 +1,5 @@
 @import url(../vendor/normalize.css);
 @import url(../fonts/fonts.css);
-@import url(../fonts/Inter-fonts/Inter-Bold.woff);
-@import url(../fonts/Inter-fonts/Inter-Bold.woff2);
-@import url(../fonts/Inter-fonts/Inter-Black.woff);
-@import url(../fonts/Inter-fonts/Inter-Black.woff2);
-@import url(../fonts/Inter-fonts/Inter-Regular.woff);
-@import url(../fonts/Inter-fonts/Inter-Regular.woff2);
-
-
 
 @import url(../blocks/body/body.css);
 
@@ -15,15 +7,10 @@
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__lang/header__lang.css);
-@import url(../blocks/header/__lang/_txt/header__lang_txt.css);
-@import url(../blocks/header/__lang/_underline/header__lang_underline.css);
+@import url(../blocks/header/__lang/_selected/header__lang_selected.css);
 @import url(../blocks/header/__links/header__links.css);
-
+@import url(../blocks/header/__lang-link/header__lang-link.css);
 @import url(../blocks/header/__logo/header__logo.css);
-
-
-@import url(../);
-
 
 @import url(../blocks/places/places.css);
 @import url(../blocks/places/__card-text/places__card-text.css);
@@ -31,13 +18,11 @@
 @import url(../blocks/places/__card/places__card.css);
 @import url(../blocks/places/__image/places__image.css);
 @import url(../blocks/places/__link/places__link.css);
-@import url(../blocks/places/__texts/places__texts.css);
 @import url(../blocks/places/__title/places__title.css);
 @import url(../blocks/places/__url/places__url.css);
 @import url(../blocks/places/__urls/places__urls.css);
 @import url(../blocks);
 @import url(../blocks);
-
 
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__image/lead__image.css);
@@ -50,7 +35,7 @@
 
 
 @import url(../blocks/intro/intro.css);
-@import url(../blocks/intro/__list-all/intro__list-all.css);
+@import url(../blocks/intro/__list-item/intro__list-item.css);
 @import url(../blocks/intro/__list-num/intro__list-num.css);
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__text/intro__text.css);
@@ -62,7 +47,6 @@
 @import url(../blocks/gallery/__image/gallery__image.css);
 @import url(../blocks);
 @import url(../blocks);
-
 
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__link/cover__link.css);
