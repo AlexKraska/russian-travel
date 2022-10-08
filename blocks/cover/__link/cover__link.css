@@ -10,12 +10,12 @@
   background-size: cover;
   background-repeat: no-repeat;
   max-width: calc(100% - 48px * 2);
-  height: 740px;
   cursor: pointer;
-  margin: 92px auto 0;
+  margin: 0 auto;
   z-index: 0;
   position: relative;
   width: 100%;
+  margin-top: 92px;
 }
 
 .cover__link::before {
@@ -35,19 +35,17 @@
     max-width: 100%;
     margin-right: 0;
     margin-left: 0;
-    height: 640px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover__link {
-    max-height: 480px;
     margin-top: 90px;
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .cover__link {
-    height: 200px;
+    margin-top: 66px;
   }
 }

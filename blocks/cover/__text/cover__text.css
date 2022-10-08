@@ -6,14 +6,26 @@
   text-align: center;
   color: #FFFFFF;
   margin: 32px 0 0;
-  padding: 0;
+  padding: 0 0 245px 0;
   text-align: center;
   z-index: 2;
   width: 360px;
   position: relative;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1024px) {
+  .cover__text {
+   padding-bottom: 195px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .cover__text {
+   padding-bottom: 115px;
+  }
+}
+
+@media screen and (max-width: 500px) {
   .cover__text {
     font-size: 14px;
     line-height: 1.14;
@@ -23,7 +35,7 @@
 
 @media screen and (max-width: 400px) {
   .cover__text {
+    padding-bottom: 33px;
     margin-top: 16px;
-    height: 48px;
   }
 }
